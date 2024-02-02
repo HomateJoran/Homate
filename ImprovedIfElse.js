@@ -1,4 +1,6 @@
 <script>
+console.log("hello tiger");
+  
   document.addEventListener('DOMContentLoaded', function () {
     const radioButtons1 = document.querySelectorAll('input[name="Plaats"]');
     const hiddenField1 = document.querySelector('input[name="PlaatsHF"]');
