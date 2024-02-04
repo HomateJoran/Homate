@@ -1,4 +1,6 @@
- const radioButtons1 = document.querySelectorAll('input[name="Plaats"]');
+
+document.addEventListener('DOMContentLoaded', function () {
+const radioButtons1 = document.querySelectorAll('input[name="Plaats"]');
     const hiddenField1 = document.querySelector('input[name="PlaatsHF"]');
 
     // Set an initial value for the hidden field
@@ -24,3 +26,4 @@
       });
     });
    
+ };
