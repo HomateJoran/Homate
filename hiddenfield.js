@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
     radioButtons1.forEach(function (radioButton) {
       radioButton.addEventListener('change', function () {
         hiddenField1.value = this.value;
-        updateCombinedHiddenField();
       });
     });
     
@@ -21,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
     radioButtons2.forEach(function (radioButton) {
       radioButton.addEventListener('change', function () {
         hiddenField2.value = this.value;
-        updateCombinedHiddenField();
       });
     });
     
@@ -34,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
     radioButtons3.forEach(function (radioButton) {
       radioButton.addEventListener('change', function () {
         hiddenField3.value = this.value;
-        updateCombinedHiddenField();
       });
     });
     
@@ -47,7 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
     radioButtons4.forEach(function (radioButton) {
       radioButton.addEventListener('change', function () {
         hiddenField4.value = this.value;
-        updateCombinedHiddenField();
       });
     });
     
@@ -60,7 +56,6 @@ document.addEventListener('DOMContentLoaded', function () {
     radioButtons5.forEach(function (radioButton) {
       radioButton.addEventListener('change', function () {
         hiddenField5.value = this.value;
-        updateCombinedHiddenField();
       });
     });
     
@@ -73,7 +68,6 @@ document.addEventListener('DOMContentLoaded', function () {
     radioButtons6.forEach(function (radioButton) {
       radioButton.addEventListener('change', function () {
         hiddenField6.value = this.value;
-        updateCombinedHiddenField();
       });
     });
     
@@ -86,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
     radioButtons7.forEach(function (radioButton) {
       radioButton.addEventListener('change', function () {
         hiddenField7.value = this.value;
-        updateCombinedHiddenField();
       });
     });
     
