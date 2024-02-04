@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // 1
-    if (combinedValue === "combinedValue === "Default value, Default value, Default value, Default value, Default value, Default value" || combinedValue === "13kW, Default value, Default value, Default value, Default value, Default value" || combinedValue === "13kW, Sokkel, Default value, Default value, Default value, Default value"") {
+    if (combinedValue === "Default value, Default value, Default value, Default value, Default value, Default value" || combinedValue === "13kW, Default value, Default value, Default value, Default value, Default value" || combinedValue === "13kW, Sokkel, Default value, Default value, Default value, Default value"") {
       Suggesties.style.display = 'block';
       Zappi.style.display = 'block';
       AlfenDouble.style.display = 'block';
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } 
     
     // 2
-    else if (combinedValue === "combinedValue === "13kW, Wand, Default value, Default value, Default value, Default value" || combinedValue === "22kW, Wand, Default value, Default value, Default value, Default value" || combinedValue === "22kW, Sokkel, Default value, Default value, Default value, Default value"") {
+    else if combinedValue === "13kW, Wand, Default value, Default value, Default value, Default value" || combinedValue === "22kW, Wand, Default value, Default value, Default value, Default value" || combinedValue === "22kW, Sokkel, Default value, Default value, Default value, Default value"") {
       Suggesties.style.display = 'block';
       Zappi.style.display = 'block';
       AlfenDouble.style.display = 'block';
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } 
     
      // 3
-    else if (combinedValue === "combinedValue === "22kW, Sokkel, VasteKabel, Default value, Default value, Default value" || combinedValue === "22kW, Wand, VasteKabel, Default value, Default value, Default value" || combinedValue === "13kW, Wand, VasteKabel, Default value, Default value, Default value" || combinedValue === "22kW, Wand, Default value, Default value, Default value, Default value" || combinedValue === "13kW, Wand, VasteKabel, NietDoorrekenen, Default value, Default value"  || combinedValue === "22kW, Wand, VasteKabel, NietDoorrekenen, Default value, Default value" || combinedValue === "22kW, Sokkel, VasteKabel, NietDoorrekenen, Default value, Default value" || combinedValue === "22kW, Sokkel, VasteKabel, NietDoorrekenen, NietGepland, Default value" || combinedValue === "13kW, Wand, VasteKabel, NietDoorrekenen, NietGepland, Default value"  || combinedValue === "13kW, Wand, VasteKabel, NietDoorrekenen, NietGepland, GeenLoadbalancing" || combinedValue === "22kW, Wand, VasteKabel, NietDoorrekenen, NietGepland, GeenLoadbalancing" || combinedValue === "22kW, Sokkel, VasteKabel, NietDoorrekenen, NietGepland, GeenLoadbalancing" ") {
+    else if (combinedValue === "22kW, Sokkel, VasteKabel, Default value, Default value, Default value" || combinedValue === "22kW, Wand, VasteKabel, Default value, Default value, Default value" || combinedValue === "13kW, Wand, VasteKabel, Default value, Default value, Default value" || combinedValue === "22kW, Wand, Default value, Default value, Default value, Default value" || combinedValue === "13kW, Wand, VasteKabel, NietDoorrekenen, Default value, Default value"  || combinedValue === "22kW, Wand, VasteKabel, NietDoorrekenen, Default value, Default value" || combinedValue === "22kW, Sokkel, VasteKabel, NietDoorrekenen, Default value, Default value" || combinedValue === "22kW, Sokkel, VasteKabel, NietDoorrekenen, NietGepland, Default value" || combinedValue === "13kW, Wand, VasteKabel, NietDoorrekenen, NietGepland, Default value"  || combinedValue === "13kW, Wand, VasteKabel, NietDoorrekenen, NietGepland, GeenLoadbalancing" || combinedValue === "22kW, Wand, VasteKabel, NietDoorrekenen, NietGepland, GeenLoadbalancing" || combinedValue === "22kW, Sokkel, VasteKabel, NietDoorrekenen, NietGepland, GeenLoadbalancing" ") {
       Suggesties.style.display = 'block';
       Zappi.style.display = 'block';
       AlfenDouble.style.display = 'block';
