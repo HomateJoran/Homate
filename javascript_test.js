@@ -1,4 +1,6 @@
-  document.addEventListener('DOMContentLoaded', function () {
+alert("I am an alert box!");
+
+document.addEventListener('DOMContentLoaded', function () {
     const radioButtons1 = document.querySelectorAll('input[name="Plaats"]');
     const hiddenField1 = document.querySelector('input[name="PlaatsHF"]');
 
