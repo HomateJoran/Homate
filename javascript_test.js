@@ -1,4 +1,4 @@
-alert("I am an alert box!");
+setTimeout(function() {
 
 document.addEventListener('DOMContentLoaded', function () {
     const radioButtons1 = document.querySelectorAll('input[name="Plaats"]');
@@ -390,12 +390,13 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
     else{
-      Suggesties.style.display = 'block';
-      Smappee.style.display = 'block';
-      PulsarPro.style.display = 'block';
-      PulsarMax.style.display = 'block';
-      Alfen.style.display = 'block';
-      Easee.style.display = 'block';
+      Suggesties.style.display = 'none';
+      Smappee.style.display = 'none';
+      PulsarPro.style.display = 'none';
+      PulsarMax.style.display = 'none';
+      Alfen.style.display = 'none';
+      Easee.style.display = 'none';
     }
     };
     });
+}, 2000);
