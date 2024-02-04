@@ -390,12 +390,12 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
     else{
-      Suggesties.style.display = 'none';
-      Smappee.style.display = 'none';
-      PulsarPro.style.display = 'none';
-      PulsarMax.style.display = 'none';
-      Alfen.style.display = 'none';
-      Easee.style.display = 'none';
+      Suggesties.style.display = 'block';
+      Smappee.style.display = 'block';
+      PulsarPro.style.display = 'block';
+      PulsarMax.style.display = 'block';
+      Alfen.style.display = 'block';
+      Easee.style.display = 'block';
     }
     };
     });
