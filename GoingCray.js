@@ -1,4 +1,5 @@
-    document.addEventListener('DOMContentLoaded', function () {
+<script>
+document.addEventListener('DOMContentLoaded', function () {
         var hiddenField = document.querySelector('input[name="PlaatsHF"]');
         var radioButtons = document.querySelectorAll('input[name="Plaats"]');
 
@@ -10,3 +11,4 @@
             });
         });
     });
+</script>
