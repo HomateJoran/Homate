@@ -1,4 +1,4 @@
-alert('get fucxked nerd');
+alert("I am an alert box!");
 
 document.addEventListener('DOMContentLoaded', function () {
     const radioButtons1 = document.querySelectorAll('input[name="Plaats"]');
